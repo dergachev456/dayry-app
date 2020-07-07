@@ -1,0 +1,15 @@
+export const CREATE_ITEM = 'CREATE_ITEM';
+
+export const DELETE_ITEM = 'DELETE_ITEM';
+
+export const SET_SELECTED_ITEM = 'SET_SELECTED_ITEM';
+
+export const CREATE_COMMENT = 'CREATE_COMMENT';
+
+export const SET_SELECTED_COLOR = 'SET_SELECTED_COLOR';
+
+export const SHOW_COLOR_PICKER = 'SHOW_COLOR_PICKER';
+
+export const HIDE_COLOR_PICKER = 'HIDE_COLOR_PICKER';
+
+

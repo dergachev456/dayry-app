@@ -1,0 +1,76 @@
+.comments {
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 750px;
+    background: rgba(238, 237, 237, 0.231);
+    box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.75);
+    padding-bottom: 30px;
+
+    &__title {
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 45px;
+        color: rgba(110, 109, 109, 0.483);
+        &:nth-child(2) {
+            text-transform: uppercase;
+        }
+    }
+
+    &__form-wrapper {
+        display: flex;
+    }
+
+    &__square-container{
+        border: 2px solid black;
+        padding: 20px;
+        margin-left: 20px;
+
+    }
+    &__square {
+        width: 90px;
+        height: 60px;
+    }
+
+    &__textarea {
+        width: 47%;
+        margin-left: 20px;
+        border-radius: 5px;
+        font-size: 28px;
+        padding-left: 20px;
+        padding-top: 30px;
+
+    }
+    &__button { 
+        border-radius: 5px;
+        width: 150px;
+        font-size: 24px;
+        cursor: pointer;
+        background-color: rgb(25, 114, 240);
+        color: #fff;
+        border: none;
+        &:focus {
+            box-shadow: 0px 0px 13px -1px rgba(116, 183, 191, 0.75);
+        }
+        outline: none;
+        margin-left: 20px;
+    }
+}
+
+.comment {
+    display: flex;
+    margin: 20px;
+    &__color {
+        width: 100px;
+        height: 100px;
+    }
+    &__text {
+        width: 80%;
+        margin-left: 25px;
+        padding-top: 40px;
+        padding-left: 20px;
+        color: #000;
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,16 @@
+.aside {
+    text-align: center;
+    background-color: rgb(27, 27, 56);
+    width: 300px;
+    &__title {
+        color: #fff;
+        font-size: 32px;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+    &__text {
+        color: rgb(209, 209, 209);
+        padding-top: 10px;
+        display: inline-block;
+    }
+}
