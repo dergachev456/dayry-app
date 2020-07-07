@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2aef88306ba79ea06296ecdd992cb502",
+    "revision": "67648278f114a5673258cfe0661f6b31",
     "url": "/dayry-app/index.html"
   },
   {
-    "revision": "02381226ebedb0ab589c",
-    "url": "/dayry-app/static/css/main.52a34fe5.chunk.css"
+    "revision": "e6a796378752545102f9",
+    "url": "/dayry-app/static/css/main.6688d174.chunk.css"
   },
   {
     "revision": "dc995cdc56896ef52ef0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dayry-app/static/js/2.8ee5897e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02381226ebedb0ab589c",
-    "url": "/dayry-app/static/js/main.3a184a24.chunk.js"
+    "revision": "e6a796378752545102f9",
+    "url": "/dayry-app/static/js/main.f050dbad.chunk.js"
   },
   {
     "revision": "07e39d364750b085e1d9",
