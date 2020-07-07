@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dayry-app/static/css/main.171e371b.chunk.css",
+    "main.css": "/dayry-app/static/css/main.52a34fe5.chunk.css",
     "main.js": "/dayry-app/static/js/main.e4c42254.chunk.js",
     "main.js.map": "/dayry-app/static/js/main.e4c42254.chunk.js.map",
     "runtime-main.js": "/dayry-app/static/js/runtime-main.3fe81f8c.js",
@@ -8,15 +8,15 @@
     "static/js/2.8ee5897e.chunk.js": "/dayry-app/static/js/2.8ee5897e.chunk.js",
     "static/js/2.8ee5897e.chunk.js.map": "/dayry-app/static/js/2.8ee5897e.chunk.js.map",
     "index.html": "/dayry-app/index.html",
-    "precache-manifest.7dcc6bc779ba471f1beccaada8cc1ccc.js": "/dayry-app/precache-manifest.7dcc6bc779ba471f1beccaada8cc1ccc.js",
+    "precache-manifest.55478149a51d54217d5f882abfc99417.js": "/dayry-app/precache-manifest.55478149a51d54217d5f882abfc99417.js",
     "service-worker.js": "/dayry-app/service-worker.js",
-    "static/css/main.171e371b.chunk.css.map": "/dayry-app/static/css/main.171e371b.chunk.css.map",
+    "static/css/main.52a34fe5.chunk.css.map": "/dayry-app/static/css/main.52a34fe5.chunk.css.map",
     "static/js/2.8ee5897e.chunk.js.LICENSE.txt": "/dayry-app/static/js/2.8ee5897e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3fe81f8c.js",
     "static/js/2.8ee5897e.chunk.js",
-    "static/css/main.171e371b.chunk.css",
+    "static/css/main.52a34fe5.chunk.css",
     "static/js/main.e4c42254.chunk.js"
   ]
 }
