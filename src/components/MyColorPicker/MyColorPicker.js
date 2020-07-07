@@ -7,14 +7,11 @@ import Portal from '../Portal';
 class MyColorPicker extends React.Component {
     state = {
         background: '#000',
-        // isVisible:true
     };
 
     handleChangeComplete = (color) => {
         this.setState({ background: color.hex });
     };
-
-
 
     accept = () => {
         const { setSelectedColor, hideColorPicker } = this.props;
@@ -24,13 +21,13 @@ class MyColorPicker extends React.Component {
     }
 
     render() {
-        // const {isVisible} = this.state;
         const { hideColorPicker, main } = this.props;
 
         return (
             <Portal>
                 <div className={main.isColorPicker ? "my-color-picker visible" : "my-color-picker hidden"}>
                     <PhotoshopPicker
+                        className="my-picker"
                         color={this.state.background}
                         onChangeComplete={this.handleChangeComplete}
                         onAccept={this.accept}

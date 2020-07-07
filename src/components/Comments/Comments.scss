@@ -4,7 +4,8 @@
     margin-top: 30px;
     margin-left: 3%;
     margin-right: 20px;
-    width: 650px;
+    width: 50%;
+
     background: rgba(238, 237, 237, 0.231);
     box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.75);
     padding-bottom: 30px;
@@ -35,12 +36,13 @@
     }
 
     &__textarea {
-        width: 47%;
+        width: 57%;
         margin-left: 20px;
         border-radius: 5px;
         font-size: 20px;
         padding-left: 20px;
         padding-top: 40px;
+        margin-right: 20px;
 
     }
     &__button { 
@@ -55,7 +57,7 @@
             box-shadow: 0px 0px 13px -1px rgba(116, 183, 191, 0.75);
         }
         outline: none;
-        margin-left: 20px;
+        margin-left: auto;
         margin-right: 20px;
     }
 }
@@ -74,5 +76,40 @@
         padding-left: 20px;
         color: #000;
         background-color: #fff;
+    }
+}
+
+@media (max-width: 1375px) {
+    .comments {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        &__title {
+            font-size: 30px;
+            padding-left: 20px;
+        }
+        &__form-wrapper {
+            flex-direction: column;
+        }
+        &__square {
+            width: 90%;
+            margin: 0 auto;
+        }
+        &__square-container {
+            margin: 0 auto;
+            width: 80%;
+        }
+        &__textarea {
+            width: 80%;
+            margin: 20px auto;
+            height: 60px;
+        }
+        &__button{
+            width: 300px;
+            height: 60px;
+            margin: 0 auto;
+        }
     }
 }

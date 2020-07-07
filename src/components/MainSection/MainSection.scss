@@ -3,3 +3,9 @@
     display: inline-flex;
     align-items: flex-start
 }
+
+@media (max-width: 1375px) {
+    .main {
+        flex-direction: column;
+    }
+}
