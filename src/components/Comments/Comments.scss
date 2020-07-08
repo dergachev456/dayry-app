@@ -62,23 +62,6 @@
     }
 }
 
-.comment {
-    display: flex;
-    margin: 20px;
-    &__color {
-        width: 100px;
-        height: 100px;
-    }
-    &__text {
-        width: 80%;
-        margin-left: 25px;
-        padding-top: 40px;
-        padding-left: 20px;
-        color: #000;
-        background-color: #fff;
-    }
-}
-
 @media (max-width: 1375px) {
     .comments {
         padding-top: 20px;
