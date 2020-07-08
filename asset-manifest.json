@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dayry-app/static/css/main.6688d174.chunk.css",
-    "main.js": "/dayry-app/static/js/main.f050dbad.chunk.js",
-    "main.js.map": "/dayry-app/static/js/main.f050dbad.chunk.js.map",
+    "main.css": "/dayry-app/static/css/main.fcbfa602.chunk.css",
+    "main.js": "/dayry-app/static/js/main.e94ae597.chunk.js",
+    "main.js.map": "/dayry-app/static/js/main.e94ae597.chunk.js.map",
     "runtime-main.js": "/dayry-app/static/js/runtime-main.3fe81f8c.js",
     "runtime-main.js.map": "/dayry-app/static/js/runtime-main.3fe81f8c.js.map",
-    "static/js/2.8ee5897e.chunk.js": "/dayry-app/static/js/2.8ee5897e.chunk.js",
-    "static/js/2.8ee5897e.chunk.js.map": "/dayry-app/static/js/2.8ee5897e.chunk.js.map",
+    "static/js/2.ba1387ac.chunk.js": "/dayry-app/static/js/2.ba1387ac.chunk.js",
+    "static/js/2.ba1387ac.chunk.js.map": "/dayry-app/static/js/2.ba1387ac.chunk.js.map",
     "index.html": "/dayry-app/index.html",
-    "precache-manifest.0555d0f53ac9539d2d1ac5a55d089aa5.js": "/dayry-app/precache-manifest.0555d0f53ac9539d2d1ac5a55d089aa5.js",
+    "precache-manifest.d99e4d042aa7da4d8f6ebdee7f3ea90c.js": "/dayry-app/precache-manifest.d99e4d042aa7da4d8f6ebdee7f3ea90c.js",
     "service-worker.js": "/dayry-app/service-worker.js",
-    "static/css/main.6688d174.chunk.css.map": "/dayry-app/static/css/main.6688d174.chunk.css.map",
-    "static/js/2.8ee5897e.chunk.js.LICENSE.txt": "/dayry-app/static/js/2.8ee5897e.chunk.js.LICENSE.txt"
+    "static/css/main.fcbfa602.chunk.css.map": "/dayry-app/static/css/main.fcbfa602.chunk.css.map",
+    "static/js/2.ba1387ac.chunk.js.LICENSE.txt": "/dayry-app/static/js/2.ba1387ac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3fe81f8c.js",
-    "static/js/2.8ee5897e.chunk.js",
-    "static/css/main.6688d174.chunk.css",
-    "static/js/main.f050dbad.chunk.js"
+    "static/js/2.ba1387ac.chunk.js",
+    "static/css/main.fcbfa602.chunk.css",
+    "static/js/main.e94ae597.chunk.js"
   ]
 }

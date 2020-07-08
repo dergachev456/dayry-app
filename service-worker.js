@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dayry-app/precache-manifest.0555d0f53ac9539d2d1ac5a55d089aa5.js"
+  "/dayry-app/precache-manifest.d99e4d042aa7da4d8f6ebdee7f3ea90c.js"
 );
 
 self.addEventListener('message', (event) => {
