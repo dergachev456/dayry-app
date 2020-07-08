@@ -1,9 +1,11 @@
-import { SET_SELECTED_ITEM, SET_SELECTED_COLOR, SHOW_COLOR_PICKER, HIDE_COLOR_PICKER } from '../constants';
+import { SET_SELECTED_ITEM, SET_SELECTED_COLOR, SHOW_COLOR_PICKER, HIDE_COLOR_PICKER, HANDLE_ITEM_TEXT, HANDLE_COMMENT_TEXT } from '../constants';
 
 const initialState = {
     selectedItemIndex: 0,
     selectedColor: "#000",
-    isColorPicker: false
+    isColorPicker: false,
+    itemText: '',
+    commentText: ''
 };
 
 export default function (state = initialState, action) {
@@ -27,6 +29,16 @@ export default function (state = initialState, action) {
             return {
                 ...state,
                 isColorPicker: false
+            }
+        case HANDLE_ITEM_TEXT:
+            return {
+                ...state,
+                itemText: action.payload
+            }
+        case HANDLE_COMMENT_TEXT:
+            return {
+            ...state,
+                commentText: action.payload
             }
         default:
             return state;

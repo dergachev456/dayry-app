@@ -13,7 +13,7 @@
     &__title {
         padding-top: 20px;
         padding-left: 15px;
-        font-size: 45px;
+        font-size: 42px;
         color: rgba(110, 109, 109, 0.483);
         &:nth-child(2) {
             text-transform: uppercase;
@@ -81,13 +81,14 @@
 
 @media (max-width: 1375px) {
     .comments {
+        padding-top: 20px;
         width: 90%;
         margin: 0 auto;
         margin-top: 30px;
         margin-bottom: 30px;
 
         &__title {
-            font-size: 30px;
+            font-size: 20px;
             padding-left: 20px;
         }
         &__form-wrapper {

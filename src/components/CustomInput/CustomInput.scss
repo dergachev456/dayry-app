@@ -1,0 +1,16 @@
+.custom-input {
+    border: 2px solid rgba(221, 221, 221, 0.462);
+    border-radius: 5px;
+    font-size: 24px;
+    outline: none;
+
+    &:focus {
+        box-shadow: 0px 0px 13px -1px rgba(116, 183, 191, 0.75);
+    }
+}
+
+@media (max-width: 475px) {
+    .custom-input {
+        font-size: 16px;
+    }
+}
