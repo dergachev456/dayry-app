@@ -21,7 +21,6 @@ class CommentsContainer extends Component {
 
     createComment = () => {
         const { createComment, main : {commentText, selectedColor}, items, handleCommentText } = this.props;
-        console.log(items.length);
         
         if (commentText !== "" && items.length !== 0) {
             const selectedItem = this.getSelectedItem();
